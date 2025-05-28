@@ -28,7 +28,3 @@ pip install -r requirements.txt
 ## Automation Frequency
 
 This runs every 15 minutes using Github Actions
-
-## License 
-
-MIT
