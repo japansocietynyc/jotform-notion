@@ -8,7 +8,7 @@ This project syncs form submissions from Jotform to a Notion Database.
 
 - Parses Jotform answers and pushes them into Notion Database Rows
 - Updates existing Form Submissions in Notion
-- Automatically runs every 15 minutes using Github Actions
+- Automatically runs every 4 hours using Github Actions
 
 # Setup 
 
