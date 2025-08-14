@@ -2,9 +2,11 @@ name: Sync JotForm to Notion
 
 on:
   schedule:
-    # Run every hour at minute 0
-    - cron: '0 * * * *'
+    # Run every 4 hours at minute 0
+    - cron: '0 */4 * * *'
   workflow_dispatch: # Allow manual triggering
+  push:
+    branches: [ main ]  # Run on push for testing
 
 jobs:
   sync:
